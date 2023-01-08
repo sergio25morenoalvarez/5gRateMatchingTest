@@ -11,4 +11,6 @@ Se muestran los siguientes archivos:
 
   -**PRUEBA_RATE_MATCHING_MATLAB.m**------------------------------>Código matlab adaptado del original de 5G Toolbox que ofrece Matlab.  
   
-  -**Se observarán unos mismos resultados comparando PRUEBA_RATE_MATCHING_MATLAB.m y PRUEBA RATE MATCHING (char vector-OK).c. Posteriormente, se produce el traspaso del código en C a ALOE, donde se podrá comprobar su correcto funcionamiento.**
+  -**Se observarán unos mismos resultados comparando PRUEBA_RATE_MATCHING_MATLAB.m y PRUEBA RATE MATCHING (char vector-OK).c. Posteriormente, se produce el traspaso del código en C a ALOE, donde se podrá comprobar su correcto funcionamiento.**  
+  
+  -**Por último se muestra el siguiente archivo: RATE_MATCHING.tar.gz, perteneciente a la implementación del código previo en ALOE. Para probar su funcionamiento es necesaria la previa lectura del documento entregado por Atenea.**
