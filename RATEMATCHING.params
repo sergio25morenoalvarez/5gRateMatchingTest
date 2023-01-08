@@ -1,0 +1,30 @@
+#------------------------------------------------------------------
+# rv: redundancy version (0,1,2,3)
+parameter {
+	name = rv
+	value = 1
+}
+#------------------------------------------------------------------
+# NBG: base graph number (1 or 2, see the previous modules and select the correct one)
+parameter {
+	name = NBG
+	value = 1
+}
+#------------------------------------------------------------------
+# modulation: 1 - BPSK, 2 - QPSK, 4 - 16QAM, 6 - 64QAM, 8 - 256QAM
+parameter {
+	name = modulation
+	value = 4
+}
+#------------------------------------------------------------------
+# nlayers: PUSCH (1,2,3,4) PDSCH (1,2,3,4,5,6,7,8)
+parameter {
+	name = nlayers
+	value = 1
+}
+#------------------------------------------------------------------
+# TBSLBRM: set always to 0 (con 1 no se ha programado)
+parameter {
+	name = TBSLBRM
+	value = 0
+}
