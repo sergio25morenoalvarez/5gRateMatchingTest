@@ -17,7 +17,7 @@ Se muestran los siguientes archivos:
   
 ## Comprobación en ALOE
 
-  -Exportar el archivo en la carpeta 'modules'.  
+  -Exportar el archivo RATE_MATCHING.tar.gz en la carpeta 'modules'.  
   
   -Copiar el archivo RATEMATCHING.params en la carpeta 'paramscfg' correspondiente.  
     
@@ -27,4 +27,6 @@ Se muestran los siguientes archivos:
   
   -Por último, si se desea ver el vector de entrada y de salida del bloque, descomentar las líneas 136 a 143 del archivo RATE_MATCHING.c.  
   
-  -Finalmente, si se desea comprobar el funcionamiento del módulo junto toda la cadena de 5G será necesario descomentar la línea 121 del archivo RATE_MATCHING.c y comentar la línea 129. En la línea 121 estamos indicando que la información que nos llega por la 'input1' es la cantidad de codeblocks que llegan por el vector de entrada. Por otro lado, la variable NBG se deberá de modificar a partir del .params con aquella correspondiente a la calculada en los módulos previos. El resto de parámetros como rv (redundancia), modulation (modulación a utilizar) o nlayers (number of layers, PUSCH (1,2,3,4) PDSCH (1,2,3,4,5,6,7,8)) se pueden modificar a libre elección del usuario de una manera lógica.
+  -Finalmente, si se desea comprobar el funcionamiento del módulo junto toda la cadena de 5G será necesario descomentar la línea 121 del archivo RATE_MATCHING.c y comentar la línea 129. En la línea 121 estamos indicando que la información que nos llega por la 'input1' es la cantidad de codeblocks que llegan por el vector de entrada.  
+  
+  -**COMENTARIO:** la variable NBG se deberá de modificar a partir del .params con aquella correspondiente a la calculada en los módulos previos. El resto de parámetros como rv (redundancia), modulation (modulación a utilizar) o nlayers (number of layers, PUSCH (1,2,3,4) PDSCH (1,2,3,4,5,6,7,8)) se pueden modificar a libre elección del usuario de una manera lógica.
